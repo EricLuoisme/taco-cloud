@@ -8,6 +8,7 @@ public class HomeController {
 
     @GetMapping("/")    // 控制器注解
     public String home() { // 处理对跟路径"/"的请求
-        return "home";  // 返回视图名
+        return "home";
+        // 返回视图名
     }
 }
