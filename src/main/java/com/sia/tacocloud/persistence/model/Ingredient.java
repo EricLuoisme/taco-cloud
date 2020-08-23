@@ -1,9 +1,12 @@
-package com.sia.tacocloud.domain;
+package com.sia.tacocloud.persistence.model;
 
 
 import lombok.Data;
 import lombok.RequiredArgsConstructor;
 
+/**
+ * @author lykis
+ */
 @Data
 @RequiredArgsConstructor
 public class Ingredient {
@@ -13,6 +16,10 @@ public class Ingredient {
     private final Type type;
 
     public static enum Type {
+        /*
+        WRAP: ...
+        PROTEIN: ...
+         */
         WRAP, PROTEIN, VEGGIES, CHEESE, SAUCE
     }
 

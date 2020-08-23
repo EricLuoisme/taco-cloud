@@ -1,6 +1,6 @@
-package com.sia.tacocloud.controller;
+package com.sia.tacocloud.web.controller;
 
-import com.sia.tacocloud.domain.Order;
+import com.sia.tacocloud.persistence.model.Order;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

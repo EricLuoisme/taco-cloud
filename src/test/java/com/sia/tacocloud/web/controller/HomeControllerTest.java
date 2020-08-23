@@ -1,6 +1,6 @@
 package com.sia.tacocloud.web.controller;
 
-import com.sia.tacocloud.controller.HomeController;
+import com.sia.tacocloud.web.controller.HomeController;
 import org.junit.Test;
 import org .junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
