@@ -1,4 +1,4 @@
-package com.sia.tacocloud.domain;
+package com.sia.tacocloud.persistence.model;
 
 import lombok.Data;
 import org.hibernate.validator.constraints.CreditCardNumber;
@@ -14,9 +14,9 @@ import java.util.Date;
 @Data
 public class Order {
 
-    private Long id;
+    private long id;
 
-    private Date createAt;
+    private Date placedAt;
 
     @NotBlank(message = "Name is required")
     private String name;
