@@ -1,6 +1,6 @@
 package com.sia.tacocloud.repository;
 
-import com.sia.tacocloud.domain.Ingredient;
+import com.sia.tacocloud.persistence.model.Ingredient;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Repository;

@@ -1,6 +1,6 @@
 package com.sia.tacocloud.repository;
 
-import com.sia.tacocloud.domain.Ingredient;
+import com.sia.tacocloud.persistence.model.Ingredient;
 
 public interface IngredientRepository {
 
